@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LSBU 360 Virtual Tour</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        // This function redirects the user to soundtest.html when the "Enter 360" button is clicked.
+        function enter360() {
+            window.location.href = 'soundtest.html'; // Adjust the path if necessary.
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -18,7 +24,8 @@
     <div class="main-content">
         <div class="envelope-icon"></div>
         <h1>Welcome to<br>London South Bank University</h1>
-        <button onclick="location.href='#'">Enter 360</button>
+        <!-- The button now correctly calls the enter360 function on click -->
+        <button id="enter360" onclick="enter360()">Enter 360</button>
     </div>
 
     <div class="footer">
