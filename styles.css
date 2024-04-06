@@ -90,3 +90,11 @@ h1 {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adjust values and color as needed */
   /* Add any other styling for your button here */
 }
+
+.logo-icon {
+  width: 300px; /* or whatever size you prefer */
+  height: auto; /* to maintain aspect ratio */
+  display: block; /* or inline-block, depending on your layout */
+  margin: 0 auto; /* if you want to center it in the div */
+  filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.5)); /* Horizontal offset, vertical offset, blur, color */
+}
