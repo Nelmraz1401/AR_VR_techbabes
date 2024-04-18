@@ -95,7 +95,7 @@ h1 {
 }
 
 .logo-icon {
-  width: 300px; /* or whatever size you prefer */
+  width: 250px; /* or whatever size you prefer */
   height: auto; /* to maintain aspect ratio */
   display: block; /* or inline-block, depending on your layout */
   margin: 0 auto; /* if you want to center it in the div */
@@ -112,7 +112,7 @@ select.custom-select {
   background-color: #842C7E;  /* Background color */
   color: white;  /* Text color */
   border: none;  /* Removes default border styles */
-  border-radius: 5px;  /* Optional: rounds the corners */
+  border-radius: 10px;  /* Optional: rounds the corners */
 }
 
 /* Option styling - ensuring readability in dropdown */
