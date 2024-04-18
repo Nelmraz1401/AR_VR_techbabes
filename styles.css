@@ -101,3 +101,24 @@ h1 {
   margin: 0 auto; /* if you want to center it in the div */
   filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.5)); /* Horizontal offset, vertical offset, blur, color */
 }
+
+/* Styling the select element itself */
+select.custom-select {
+  width: 200px;  /* Width of the select dropdown */
+  height: 40px;  /* Height of the select box */
+  font-size: 16px;  /* Size of the text */
+  padding: 5px 10px;  /* Padding inside the select box */
+  cursor: pointer;  /* Cursor to indicate it's clickable */
+  background-color: #842C7E;  /* Background color */
+  color: white;  /* Text color */
+  border: none;  /* Removes default border styles */
+  border-radius: 5px;  /* Optional: rounds the corners */
+}
+
+/* Option styling - ensuring readability in dropdown */
+option {
+  font-size: 16px;  /* Size of the text inside options */
+  padding: 10px;  /* Padding inside options */
+  background-color: #842C7E;  /* Consistent background color */
+  color: white;  /* Text color for readability */
+}
