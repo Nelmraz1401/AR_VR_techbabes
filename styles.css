@@ -39,7 +39,7 @@ body, html {
 .main-content {
   text-align: center;
   color: white;
-  padding: 50px 20px;
+  padding: 30px 10px;
 }
 
 .envelope-icon {
@@ -119,6 +119,6 @@ select.custom-select {
 option {
   font-size: 16px;  /* Size of the text inside options */
   padding: 10px;  /* Padding inside options */
-  background-color: #842C7E;  /* Consistent background color */
+  background-color: #9B0070;  /* Consistent background color */
   color: white;  /* Text color for readability */
 }
