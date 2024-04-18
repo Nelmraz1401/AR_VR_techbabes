@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,11 @@
     <script>
         // This function redirects the user to soundtest.html when the "Enter 360" button is clicked.
         function enter360() {
-            window.location.href = 'soundtest.html'; // Adjust the path if necessary.
+            window.location.href = 'lsbu_entrance.html'; // Adjust the path if necessary.
         }
     </script>
 </head>
+
 <body>
     <video autoplay muted loop id="background-video">
         <source src="media/1000088358_animation.mp4" type="video/mp4">
@@ -20,8 +22,9 @@
     <div class="header">
         <div class="header-title">LSBU 360</div>
         <div class="header-nav">
-            <a href="#" class="nav-link">Site Title</a>
+            <a href="#" class="nav-link">Home</a>
             <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
         </div>
     </div>
 
@@ -29,13 +32,25 @@
         <img src="/media/logo.png" alt="LSBU Logo" class="logo-icon">
         <h1>Welcome to<br>London South Bank University</h1>
         <!-- The button now correctly calls the enter360 function on click -->
-        <button id="enter360" onclick="enter360()">Enter 360</button>
+        <button id="enter360" onclick="enter360()">Enter Full 360 Tour</button>
+
+
+    </div>
+    <div class="main-content">
+        <h1>Select a Place to visit</h1>
+        <select>
+            <option value="page1.html">Page 1</option>
+            <option value="page2.html">Page 2</option>
+            <option value="page3.html">Page 3</option>
+        </select>
+
     </div>
 
     <div class="footer">
-        <div class="footer-text">This is a VR Coursework</div>
+        <div class="footer-text">VR Coursework Project</div>
         <div class="footer-text">Developed by Techbabes</div>
-        <div class="footer-text">AFRAMES</div>
+        <div class="footer-text">Powered by A-Frame</div>
     </div>
 </body>
+
 </html>
