@@ -9,8 +9,18 @@
     <script>
         // This function redirects the user to soundtest.html when the "Enter 360" button is clicked.
         function enter360() {
-            window.location.href = 'lsbu_entrance.html'; // Adjust the path if necessary.
+            window.location.href = '/pages/entrance.html'; // Adjust the path if necessary.
         }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const selector = document.getElementById('locationSelector');
+            selector.addEventListener('change', function() {
+                const selectedPage = this.value;
+                if (selectedPage) {
+                    window.location.href = selectedPage;
+                }
+            });
+        });
     </script>
 </head>
 
@@ -36,15 +46,17 @@
     </div>
     <div class="main-content">
         <h1>Select a Place to visit</h1>
-        <select class="custom-select">
-            <option value="page1.html">LSBU Entrance</option>
-            <option value="page2.html">Library</option>
-            <option value="page3.html">Museum</option>
-            <option value="page4.html">Grad's Cafe</option>
-            <option value="page5.html">Faraday Wing</option>
+        <select id="locationSelector" class="custom-select">
+            <option value="">Select a location...</option>
+            <option value="pages/welcome.html">Welcome</option>
+            <option value="pages/entrance.html">LSBU Entrance</option>
+            <option value="library.html">Library</option>
+            <option value="pages/museum.html">Museum</option>
+            <option value="pages/grads-cafe.html">Grad's Cafe</option>
+            <option value="pages/keyworth.html">Key Worth</option>
         </select>
-
     </div>
+    
 
     <div class="footer">
         <div class="footer-text">VR Coursework Project</div>
