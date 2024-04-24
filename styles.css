@@ -122,3 +122,9 @@ option {
   background-color: #9B0070;  /* Consistent background color */
   color: white;  /* Text color for readability */
 }
+
+/* Hover effect for options */
+option:hover {
+  background-color: #9B0070;  /* Consistent background color */
+  color: white;  /* Text color for readability */
+}
